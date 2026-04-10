@@ -9,5 +9,15 @@ package org.alvarocalderon.controller;
  * @author aruba
  */
 public class ControllerLogica {
-    
+    public boolean verificarEdad(int edad){
+        
+        boolean mayorEdad = false;
+        
+        if (edad >= 18){ 
+            mayorEdad = true;
+        }else{
+            mayorEdad = false;
+        }
+        return mayorEdad;
+    }
 }

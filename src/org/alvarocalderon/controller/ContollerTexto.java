@@ -10,4 +10,10 @@ package org.alvarocalderon.controller;
  */
 public class ContollerTexto {
     
+    public String nombreCompleto(String nombre, String apellido){
+        String nombrePropio;
+        nombrePropio = nombre + " " + apellido;
+        return nombrePropio;
+    }
+    
 }

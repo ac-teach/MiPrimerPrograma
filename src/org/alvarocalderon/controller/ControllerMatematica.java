@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package org.alvarocalderon.controller;
 
-/**
- *
- * @author aruba
- */
+
 public class ControllerMatematica {
+    
+    public double calcularSalario(int horas, double costo){
+        double totalSalario = horas * costo;
+        return totalSalario;
+    }
     
 }
