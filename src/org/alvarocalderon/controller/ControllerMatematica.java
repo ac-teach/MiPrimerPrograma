@@ -19,4 +19,11 @@ public class ControllerMatematica {
         return (nota1+nota2+nota3) /3;
     }
     
+    public double convertirTemperatura(double celcius){
+        double farenheigt;
+        
+        farenheigt = celcius* (9/5) + 32;
+        return farenheigt;
+    }
+    
 }
