@@ -9,4 +9,11 @@ public class ControllerMatematica {
         return totalSalario;
     }
     
+    public double calcularAreaTriangulo(int base, int altura){
+        double area;
+        area = (base * altura) /2;
+        
+        return area;
+    }
+    
 }
